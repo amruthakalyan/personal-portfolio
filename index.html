@@ -4,79 +4,168 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Personal Portfolio</title>
+    <title>Personal-Portfolio</title>
 </head>
 <body>
-    <div class="container">
-        <div class="navbar">
+    <header>
+        <nav class="nav"> 
+            <p class="logo">Kaly's Portfolio</p>
+            <input type="checkbox" id="checkbox">
+            <label for="checkbox">&#9776</label>
+            <ul>
+                <li><a class="home" href="">Home</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <button class="dark" id="dark">dark</button>
+                <button class="light" id="light">light</button>
+            </ul>
+         
+    </nav>
+    </header>
+    <main class="main">
+        <div class="aboutme">
+            <div class="content">I'm<span>Kalyan_amrutha, Designer and developer</span> from Hyderabad,Telangana. I enjoy turning complex problems into simple, beautiful and intuitive designs.
+
+                My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way.</div>
+            <div class="img"><img src="kaly.jpeg" alt=""></div>
+        </div>
+    <!-- Work -->
+    <h2>What I'm Doing</h2>
+          <div class="work">
+            <div class="card">
+                <h3>Web Design</h3><br>
+                <p> The most modern and high-quality design made at a professional level.</p>
+            </div>
+            <div class="card">
+                <h3>Web Development</h3><br>
+                <p>High-quality development of sites at the professional level.</p>
+            </div>
+          </div>
+
+          <!-- <div class="work">
+            <div class="card">
+                <h3>Web Design</h3><br>
+                <p> The most modern and high-quality design made at a professional level.</p>
+            </div>
+            <div class="card">
+                <h3>Web Development</h3><br>
+                <p>High-quality development of sites at the professional level.</p>
+            </div>
+           </div> -->
+          <!-- <div class="testimonials">
+            <div class="review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse architecto veniam, reprehenderit reiciendis nisi a! Ex nostrum cum consectetur sapiente!</div>
+            <div class="review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic quae pariatur minus recusandae expedita labore quasi modi voluptas repudiandae sunt.</div>
+            <div class="review">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur consequatur porro sequi, alias maxime placeat facilis reiciendis omnis molestias commodi?</div>
+          </div> --> 
+          
+          <div class="resume" id="resume">
+            <h1>Resume</h1>
+           <div class="heading">
+                <h3>AMRUTHA KALYAN</h3>
+                 <h5>Front end Developer</h5>
+                 <p>Hyderabad,
+                    9160911716</p>
+            </div><hr><br><br>
+            <div class="info">
             <div class="left">
-             <div class="logo">Kaly's Portfolio</div>
+                <div class="personal-data">
+                    <h3>PERSONAL INFORMATION</h3>
+                    <p>Adddress:Hyderabad,Telangana</p>
+                    <p>Phno:+91-9160911716</p>
+                    <p>Email: amruthakalyan462@gmail.com</p>
+                </div>
+                <div class="skills">
+                    <h3>Skills</h3>
+                    <p>★ Front-End developer</p>
+                    <p>★ C</p>
+                    <p>★ C++</p>
+                    <p>★java</p>
+                    <p>★ git/github</p>
+                    <p>★Communication</p>
+                    <p>★ Fast Learner</p>
+                    <p>★ Leadership</p>
+                    <p>★ Ability to Work Under Pressure</p>
+                </div>
+                <div class="hobbies">
+                    <h3>Hobbies</h3>
+                    <p>★ Cricket</p>
+                    <p>★ reading books</p>
+                    <p>★ movies</p>  
+                </div>
             </div>
             <div class="right">
-                <ul>
-                    <li><a href="" id="home">Home</a></li>
-                    <li><a href="">Skills</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
+            <div class="summary">
+                <h3>Objective</h3>
+                <p> “Self-motivated, highly passionate, and hardworking fresher looking for an opportunity to work in a challenging organization to utilize my skills and knowledge to work for the growth of the organisation.
+                </p>
+            </div><br>
+            <div class="work-experience">
+                <h3>Experience</h3>
+                <p>* May 2023 – June 2023 <br>
+                    Front-End web developer, Hyderabad</p>
+                    <p>Developed front-end architecture that improved scalability and performance of the website</p>
+                    <p>  Developed a secure, interactive web application with a modern front-end framework and an intuitive user interface</p>
+                    <p>  Designed Hotstar Clone</p>
             </div>
+            <div class="education">
+                <h3>Education</h3>
+                <p>  * 2021 – 2025 <br>
+                    Tkr College of Engineering and Technology, Hyderabad Bachelor of technology</p>
+                    <p>* 2019 – 2021 <br>
+                        Sri Medha v Junior College, Hyderabad MPC</p>
+                        <p>* 2019 <br>
+                            Bhanodaya High School, Hyderabad ssc</p>
+            </div>
+            <div class="languages">
+                <h3>languages-known</h3>
+                <p>1.English</p>
+                <p>2.Telugu</p>
+                <p>3.Hindi</p>
+            </div><hr>
+          </div>
         </div>
     </div>
-    <div class="main">
-        <div class="carausal-content">
-             <div class="content">
-                   Hello,my name is  KALYAN_AMRUTHA <br>
-                   I'm a<b>Web Developer.!</b><br>
-                   <p>im a web Designer.My expertise is to create and  deploy websites as full stack web developeer.</p> <br>
-                   <button id="btn">Download CV</button>
-                
-             </div>
-             <div class="carausal-img">
-                <img src="kaly.jpeg" alt="">
-             </div>
+        <div class="portfolio" id="portfolio">
+            <h1>Projects</h1>
+            <!-- <h4>1.Hostar-clone</h4> -->
+            <a href=" https://amruthakalyan.github.io/hotstar-clone/"><img src="./images/download.jpg" alt="Hotstar"></a>
+           <a href=" https://amruthakalyan.github.io/tictactoe/"><img src="./images/tictactoeimg.jpg" alt=""></a>
+            <!-- <h4>2.Web-clone</h4> -->
+            <a href="https://amruthakalyan.github.io/webclone/"><img src="./images/tkrlogo.jpg" alt=""></a>
+            <!-- <h4>3.Calculator</h4> -->
+            <a href="https://amruthakalyan.github.io/calculator/"><img src="./images/calculatorimg.jpg" alt=""></a>
+            <!-- <h4>4.Quiz</h4> -->
+            <a href="https://amruthakalyan.github.io/Quiz/"><img src="./images/quizimg.jpg" alt=""></a>
+            <!-- <h4>5.Random-number-generator</h4> -->
+            <a href="https://amruthakalyan.github.io/RandomNumberGenerator/"><img src="./images/randomnoimg.jpg" alt=""></a>
+            <!-- <h4>6.Portfolio</h4> -->
+            <a href=" https://amruthakalyan.github.io/personal-portfolio/"><img src="./images/portfolioimg.jpg" alt=""></a>
+            <!-- <h4>7.TextUtils</h4> -->
+            <a href=""><img src="./images/textutilsimg.jpg" alt=""></a>
+            <!-- <h4>8.Weather-App</h4> -->
+            <a href=""><img src="./images/weatherimg.png" alt="" ></a>
         </div>
-        <div class="my-expertise">
-            <h2 class="my-skills">MY EXPERTISE</h2>
-            <div class="skills">
-                <div class="skill-1">
-                    <img src="images/c-programing-logo.jpg" alt="">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod quia dolor quis. At dolorem iusto quos corrupti aliquid voluptate minima?
-                </div>
-                <div class="skill-1">
-                    <img src="images/c++.jpg" alt="">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod quia dolor quis. At dolorem iusto quos corrupti aliquid voluptate minima?
-                </div>
-                <div class="skill-1">
-                    <img src="images/java.jpg" alt="">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod quia dolor quis. At dolorem iusto quos corrupti aliquid voluptate minima?
-                </div>
-                <div class="skill-1">
-                    <img src="images/web-dev.jpg" alt="">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod quia dolor quis. At dolorem iusto quos corrupti aliquid voluptate minima?
-                </div>
+        <div class="contact" id="contact">
+            <h1>Contact</h1>
+            <div class="contact-form">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Write your query here.."></textarea>
+              Name: <input type="text"><br><br>
+              Phno: <input type="text"><br><br>
+              Email: <input type="email"><br><br>
+              <button>Send Query</button>
             </div>
         </div>
-          <div class="details">
-            <div class="mydata">
-                <h2>EDUCATION</h2>
-                <ul>
-                    <li>Bachelor of Technology   2021-2025</li>
-                    <li>Intermediate 2019-2021</li>
-                    <li>Schooling 2019</li><br>
-                </ul>
-            </div>
+    </main><hr>
+    <footer>
+        <div class="copyright"><p> copyright &copy;. All rights reserved.</p>
+            <span><a href=""><img class="foot-img" src="./images/linkedin.png" alt=""></a></span>
+            <span><a href=""><img class="foot-img" src="./images/instagram.png" alt=""></a></span>
+            <span><a href=""><img class="foot-img" src="images/telegram.png"></a></span>
+            <span><a href=""><img class="foot-img" src="images/youtube.jpg"></a></span>
+
         </div>
-        <hr>
-    </div>
-    <div class="footer">
-        <div class="contact">
-            Copyright &copy; 2023.All rights are reserved. <br>
-            <img src="images/linkedin.png" alt="">
-            <img src="images/telegram.png" alt="">
-            <img src="images/youtube.jpg" alt="">
-            <img src="images/instagram.png" alt="">
-        </div>
-    </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
 </html>

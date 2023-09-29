@@ -1,187 +1,233 @@
 *{
-    margin: 0 30px;
+    margin: 0;
+    margin-right: 20px;
+    margin-left: 20px;
     padding: 0;
     box-sizing: border-box;
-    z-index: 0;
+    font-family: 'Times New Roman', Times, serif;
+      /* background-color: #0d0c0cf3;
+    color: rgb(211, 211, 218);  */
 }
-body{
-      background-color: #111111; 
-}
-.container {
-    display: flex;
-}
- .navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #11111159; 
-    padding: 15px;
-    position: fixed;
-    top: 0;
-    bottom: auto;
+header{
+    position:fixed;
+    width:100% ;
     z-index: 1;
 }
-.navbar .left .logo{
-    color: #fff;
-    font-size: 21px;
-    text-transform: uppercase;
-}
-.container .navbar .right ul{
+.nav{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
-    list-style: none;
-}
-.navbar .right li a{
-    text-decoration: none;
-    margin-left: 15px;
-    color: rgb(219, 223, 226);
-    background:none;
-    text-transform: uppercase;
-}
-.navbar .right li a:hover{
-    color: rgb(236, 17, 17);
-    text-decoration: underline;
-}
-.navbar .right li #home{
-    color: rgb(236, 17, 17);
-}
-.carausal-content{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-    margin-top: 90px;
-    background-color: #111111;
-    color: #fff; 
-}
-.carausal-content .content{
-    font-size: 20px;
-    margin-left: 70px;
-}
-.carausal-content .content b{
-    color: rgb(228, 8, 8);
-}
-.carausal-content .content p{
-    color: rgb(162, 163, 163);
-    margin-left: 0px;
-}
-.carausal-content .content button{
-    padding: 15px;
-    margin-left: 0px;
-    font-size: 12px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #fff;
-    background-color: #e54040;
-    border: none;
-    border-radius: 5px;
+    padding: 10px;
+    background-color: #0f0e0e;
     cursor: pointer;
 }
-.carausal-content .content button:hover{
-    color: black;
-    background-color: #aac31b;
+.nav .logo{
+    font-size: 25px;
+    color: rgb(231, 19, 19);
 }
-.carausal-content .carausal-img img{
-    width: 200px;
-    height: 250px;
-    position:relative;
-    top:auto;
-}
-.my-expertise{
-    position: relative;
-    top: 20px;
-    /* background-color: #13131329; */
-    width: 100%;
-    /* margin-left: 0; */
-}
-.my-expertise .my-skills{
-    color: #fff;
-    margin-bottom: 12px;
-    border-bottom: 2px solid #fff;
-    width: fit-content;
-}
-.my-expertise .skills{
+.nav ul {
     display: flex;
-     color: #605e5e; 
-    font-family: 'Courier New', Courier, monospace;
-    text-align: left;
+    justify-content:space-between;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
 }
-.my-expertise .skills .skill-1 img{
-    background-color: #d54e4e;
-    width: 160px;
-    height: 100px;
-    z-index:1;
-    margin-left: 0;
 
-}
-.details{
-    position: relative;
-    top: 20px;
-    margin-left: 0;
+.nav ul a{
+    text-decoration: none;
+    font-size: 18px;
     color: #fff;
-    padding: 10px;
+    margin-left: 10px;
+    cursor: pointer;
 }
-.details h2{
-    border-bottom: 2px solid #fff;
-    width:fit-content;
+
+.nav ul a:hover{
+    color: rgb(232, 32, 32);
+    border-bottom: 1px solid red;
+    transition: 0.8s all ease-in-out;
 }
-.details li{
-    color: rgb(193, 191, 191);
+.nav ul .home{
+    color: rgb(217, 21, 21);
+    font-weight: 800;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.dark{
+    width:35px;
+}
+.light{
+    width: 35px;
+}
+input[type=checkbox]{
+    display: none;
+}
+label{
+    display: none;
+}
+.main{
+    position:relative;
+    top: 90px;
+}
+.main .aboutme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .aboutme .content{
+    text-align: justify;
+}
+.main .aboutme .content span{
+    font-weight: 800;
+    color: rgb(215, 17, 17);
+}
+.main .aboutme .img img{
+    width: 170px;
+}
+.main .work{
+    display: flex;
+}
+.main .work .card{
+    position: relative;
+    top: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 490px;
+    padding: 20px;
+    margin:10px 0 0 10px;
+    background:linear-gradient(white,rgb(11, 11, 11),black);
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main .work .card h3,p{
+    background-color: transparent;
+}
+.testimonials{
+    position: absolute;
+    top: auto;
+    margin: auto;
+}
+.resume{
+    position: relative;
+    top: 45px;
+}
+.resume .summary{
+    padding: 20px;
+}
+.resume .education{
+    margin-top: 20px;
+}
+.resume .info{
+    display: flex;
+}
+.resume .info .left{
+    border: 1px solid grey;
+    border-radius: 15px;
+    background-color: #595555;
+}
+.resume .info .left .personal-data,.skills,.hobbies,h3{
+    background-color:transparent;
+}
+.resume .info .right{
+    border: 1px solid grey;
+    border-radius: 15px;
+    
+}
+.portfolio{
+    position:relative;
+    top:70px;
+    left: 30px;
+    width: 100%;
+    display:inline-block;
+}
+.portfolio a img{
+   width: 190px;
+   height: 150px;
+   filter: brightness(60%);
+   /* width: 100%; */
+   
+}
+.portfolio a img:hover{
+    width: 200px;
+    transition: 1s all ease-in-out;
 }
 .contact{
     position: relative;
-    top: 15px;
+    top: 90px;
+}
+.contact textarea{
+    width: 100%;
+    height: 190px;
+    font-size: 20px;
+    background-color:transparent;
     color: #fff;
-    text-align: center;
 }
-.contact img{
-    width: 20px;
-    margin-top: 18px;
+.contact input{
+    height: 28px;
+    background-color:transparent;
+    color: #fff;
 }
-@media (max-width:700px){
-    *{
-        margin: 0;
-        padding: 0;
-    }
-    .navbar{
-        position: relative;
-    }
-    .right ul li{
-        display:block;
-    }
-    .right ul li a{
-        display: block;
-    }
-    .carausal-content{
-        display: block;
-        width: 100%;
-        position: relative;
-        top: 0;
-        margin-top: 10px;
-    }
-    .carausal-img img{
-        margin-left: 25px;
-        margin-top: 12px;
-    }
-    .my-expertise .skills{
-        display: block;
-    }
-input[type=checkbox]:checked ~ .right ul li{
-    display: block;
+.contact button{
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    margin: auto;
+    background-color:transparent;
+    color: #fff;
+}
+footer{
+    background-color: #000000;
+}
+footer .copyright{
     position: relative;
-    top: 0;
-    left: 0;
-    height: 120px;
+    margin-top:190px;
+    text-align: center;
+    color: #fff;
 }
-}
-@media (max-width:500px){
-    .right ul {
-        display: block;
-        position: absolute;
-        top: 10px;
-        left: 0;
-        bottom: 20px;
-        height: 90px;
-    }
+footer .foot-img{
+    width: 20px;
+    margin-top: 10px;
 }
 
+
+/* responsiveness */
+
+@media(max-width:755px){
+  .nav ul{
+    display: none;
+  }
+  label{
+    display: block;
+    font-size: 25px;
+    color: #fff;
+    cursor: pointer;
+  }
+  input[type=checkbox]:checked ~ ul{
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    height: 120px;
+    text-align: center;
+    background-color: #0e0e0e;
+    width: 100%;
+    transition: all 1s ease-in-out;
+  }
+  ul a{
+    margin-bottom: 20px;
+  }
+}
+@media(max-width:650px){
+     *{
+        margin: 0;
+        padding: 0;
+     }
+    .main .aboutme{
+        display: block;
+    }
+    .main .img img{
+        margin-left:50px;
+    }
+    .resume .info{
+        display: block;
+    }
+}
