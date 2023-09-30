@@ -5,8 +5,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
-      /* background-color: #0d0c0cf3;
-    color: rgb(211, 211, 218);  */
+       /* background-color: #0d0c0cf3; */
+
 }
 header{
     position:fixed;
@@ -159,12 +159,12 @@ label{
     height: 190px;
     font-size: 20px;
     background-color:transparent;
-    color: #fff;
+    color: #eb5353;
 }
 .contact input{
     height: 28px;
     background-color:transparent;
-    color: #fff;
+    color: #c64343;
 }
 .contact button{
     width: 100px;
@@ -172,7 +172,7 @@ label{
     font-size: 16px;
     margin: auto;
     background-color:transparent;
-    color: #fff;
+    color: #f66161;
 }
 footer{
     background-color: #000000;
@@ -181,7 +181,7 @@ footer .copyright{
     position: relative;
     margin-top:190px;
     text-align: center;
-    color: #fff;
+    color: #f2efef;
 }
 footer .foot-img{
     width: 20px;
@@ -208,9 +208,9 @@ footer .foot-img{
     left: 0;
     height: 120px;
     text-align: center;
-    background-color: #0e0e0e;
+    background-color: #0e0e0eae;
     width: 100%;
-    transition: all 1s ease-in-out;
+    transition:all 0.5s ease-in-out ;
   }
   ul a{
     margin-bottom: 20px;
