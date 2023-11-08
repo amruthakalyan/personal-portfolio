@@ -14,7 +14,7 @@ dark.addEventListener('click',()=>{
 // text typing Animation effect
 
    var i =0;
-   var txt = "I'm Kalyan_amrutha, Designer and developer from Hyderabad,Telangana. I enjoy turning complex problems into simple, beautiful and intuitive designs.";
+   var txt = "I'm Kalyan_amrutha, Designer and developer from Hyderabad Telangana. I enjoy turning complex problems into simple, beautiful and intuitive designs.";
    function typeWriter(){
     if(i < txt.length){
         document.getElementById('typed-text').innerHTML += txt.charAt(i);
