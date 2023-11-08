@@ -53,10 +53,12 @@ header{
     text-transform: uppercase;
 }
 .dark{
-    width:35px;
+    border-radius: 30%;
+    width: 25px;
 }
 .light{
-    width: 35px;
+    border-radius: 30%;
+    width: 25px;
 }
 input[type=checkbox]{
     display: none;
@@ -70,8 +72,8 @@ label{
 }
 .main .aboutme{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between; 
+     align-items: center;
 }
 .main .aboutme .content{
     text-align: justify;
