@@ -94,9 +94,12 @@ label{
     width: 490px;
     padding: 20px;
     margin:10px 0 0 10px;
-    background:linear-gradient(white,rgb(11, 11, 11),black);
-    color: #fff;
+    background:linear-gradient(rgb(236, 217, 217),rgb(219, 217, 217),rgb(98, 97, 97));
+    color: #d73030;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main .work .card h3{
+    color:#000000
 }
 .main .work .card h3,p{
     background-color: transparent;
@@ -134,13 +137,15 @@ label{
 }
 .email{
     color: rgb(246, 19, 19);
+    text-decoration: none;
 }
 .portfolio{
     position:relative;
     top:70px;
-    left: 30px;
+    /* left: 30px; */
     width: 100%;
-    display:inline-block;
+    /* display:inline-block; */
+    margin: auto;
 }
 .portfolio a img{
    width: 190px;
@@ -150,7 +155,6 @@ label{
    
 }
 .portfolio a img:hover{
-    width: 200px;
     transition: 1s all ease-in-out;
 }
 .contact{
