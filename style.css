@@ -132,6 +132,9 @@ label{
     border-radius: 15px;
     
 }
+.email{
+    color: rgb(246, 19, 19);
+}
 .portfolio{
     position:relative;
     top:70px;
