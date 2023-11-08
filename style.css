@@ -8,6 +8,10 @@
        /* background-color: #0d0c0cf3; */
 
 }
+.body{
+    margin-right: 12px;
+    margin-left: 12px;
+}
 header{
     position:fixed;
     width:100% ;
