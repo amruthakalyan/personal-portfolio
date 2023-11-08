@@ -88,6 +88,7 @@ label{
 }
 .main .aboutme .img img{
     width: 170px;
+    border-radius: 15px;
 }
 .main .work{
     display: flex;
