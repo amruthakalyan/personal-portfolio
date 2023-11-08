@@ -176,7 +176,7 @@ label{
 }
 footer{
     background-color: #000000;
-    width: 100%;
+    width: 100;
 }
 footer .copyright{
     position: relative;
@@ -230,5 +230,9 @@ footer .foot-img{
     }
     .resume .info{
         display: block;
+    }
+    *{
+        margin-right: 0px;
+        margin-left: 0px;
     }
 }
