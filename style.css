@@ -1,7 +1,7 @@
 *{
     margin: 0;
-    margin-right: 20px;
-    margin-left: 20px;
+    /* margin-right: 20px;
+    margin-left: 20px; */
     padding: 0;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
@@ -9,12 +9,12 @@
 
 }
 .body{
-    margin-right: 12px;
-    margin-left: 12px;
+    margin-right: 55px;
+    margin-left: 55px;
 }
 header{
     position:fixed;
-    width:100% ;
+    width:100%;
     z-index: 1;
 }
 .nav{
@@ -28,6 +28,7 @@ header{
 .nav .logo{
     font-size: 25px;
     color: rgb(231, 19, 19);
+    margin-left: 20px;
 }
 .nav ul {
     display: flex;
@@ -41,7 +42,7 @@ header{
     text-decoration: none;
     font-size: 18px;
     color: #fff;
-    margin-left: 10px;
+    margin: 25px;
     cursor: pointer;
 }
 
@@ -59,10 +60,12 @@ header{
 .dark{
     border-radius: 30%;
     width: 25px;
+    background-color: #df1d1d;
 }
 .light{
     border-radius: 30%;
     width: 25px;
+    background-color: #df1d1d;
 }
 input[type=checkbox]{
     display: none;
@@ -245,8 +248,12 @@ footer .foot-img{
     .resume .info{
         display: block;
     }
-    *{
+    .nav .logo{
         margin-right: 0px;
         margin-left: 0px;
+    }
+    .body{
+        margin-right: 12px;
+        margin-left: 12px;
     }
 }
