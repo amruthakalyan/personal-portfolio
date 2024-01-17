@@ -104,8 +104,9 @@ label{
     width: 490px;
     padding: 20px;
     margin:10px 0 0 10px;
-    background:linear-gradient(rgb(236, 217, 217),rgb(219, 217, 217),rgb(98, 97, 97));
-    color: #f3f1f1;
+    /* background:linear-gradient(rgb(248, 216, 216),rgb(217, 223, 216),rgb(220, 199, 199)); */
+    background-color: #fff;
+    color: #121111;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .main .work .card h3{
