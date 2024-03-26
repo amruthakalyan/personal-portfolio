@@ -55,7 +55,7 @@ function showSlides() {
   dots[slideIndex - 1].className += " active";
   
   // Call showSlides() again after 2 seconds
-  setTimeout(showSlides, 5000);
+  // setTimeout(showSlides, 5000);
 }
 
 // Next/previous controls
