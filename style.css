@@ -319,8 +319,8 @@ footer .foot-img{
   max-width: 400px; /* Added maximum width */
 }
 .modal img{
-    width:80px;
-    height:80px;
+    width:70%;
+    height:70%;
 }
 .close {
   color: #aaa;
