@@ -296,6 +296,11 @@ footer .foot-img{
     margin-top: 10px;
 }
 
+/* Font Awesome icons styling */
+.social-links a i {
+  font-size: 24px;
+  margin: 0 10px;
+}
 
 /* Modal */
 .modal {
