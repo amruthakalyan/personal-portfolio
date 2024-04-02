@@ -318,7 +318,7 @@ footer .foot-img{
   width: 80%; /* Adjusted width */
   max-width: 400px; /* Added maximum width */
 }
-.modal img{
+.modal .developer-info img{
     width:70%;
     height:70%;
 }
