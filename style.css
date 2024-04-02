@@ -318,7 +318,10 @@ footer .foot-img{
   width: 80%; /* Adjusted width */
   max-width: 400px; /* Added maximum width */
 }
-
+.modal img{
+    width:90px;
+    height:90px;
+}
 .close {
   color: #aaa;
   float: right;
