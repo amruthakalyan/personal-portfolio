@@ -315,7 +315,8 @@ footer .foot-img{
   margin: 15% auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 50%;
+  width: 80%; /* Adjusted width */
+  max-width: 400px; /* Added maximum width */
 }
 
 .close {
@@ -337,7 +338,8 @@ footer .foot-img{
 }
 
 .developer-info img {
-  width: 200px;
+  max-width: 100%; /* Ensure the image is responsive */
+  height: auto; /* Maintain aspect ratio */
   border-radius: 50%;
   margin-bottom: 20px;
 }
@@ -352,6 +354,15 @@ footer .foot-img{
   color: #333;
   text-decoration: none;
 }
+
+/* Added media query for responsiveness */
+@media screen and (max-width: 600px) {
+  .modal-content {
+    width: 90%;
+  }
+}
+
+ 
 
 
 /* responsiveness */
