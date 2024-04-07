@@ -94,3 +94,16 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+
+// dark whigte theme
+const themeToggle = document.getElementById('theme-toggle');
+
+themeToggle.addEventListener('change', function() {
+  if (this.checked) {
+    document.body.classList.add('dark-theme');
+  } else {
+    document.body.classList.remove('dark-theme');
+  }
+});
+
