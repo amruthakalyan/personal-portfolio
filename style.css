@@ -292,11 +292,13 @@ footer .copyright{
     margin-top:190px;
     text-align: center;
     color: #f2efef;
+     width: 100%;
+    height:60px;
 }
-footer .foot-img{
+/* footer .foot-img{
     width: 20px;
     margin-top: 10px;
-}
+} */
 
 /* Font Awesome icons styling */
 .social-links a i {
