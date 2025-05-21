@@ -1,35 +1,35 @@
-// document.body.style.backgroundColor = 'black',
-// document.body.style.color = 'white';
-// let light = document.getElementById('light');
-// let dark= document.getElementById('dark');
-// light.addEventListener('click',()=>{
-//     document.body.style.backgroundColor = "white";
-//     document.body.style.color = "black";
-// })
-// dark.addEventListener('click',()=>{
-//     document.body.style.backgroundColor = "black";
-//     document.body.style.color = "white";
-// })
+document.body.style.backgroundColor = 'black',
+document.body.style.color = 'white';
+let light = document.getElementById('light');
+let dark= document.getElementById('dark');
+light.addEventListener('click',()=>{
+    document.body.style.backgroundColor = "white";
+    document.body.style.color = "black";
+})
+dark.addEventListener('click',()=>{
+    document.body.style.backgroundColor = "black";
+    document.body.style.color = "white";
+})
 
-const toggleBtn = document.getElementById('theme-toggle');
+// const toggleBtn = document.getElementById('theme-toggle');
 
-toggleBtn.addEventListener('click', () => {
-  document.body.classList.toggle('dark-theme');
+// toggleBtn.addEventListener('click', () => {
+//   document.body.classList.toggle('dark-theme');
 
-  // Change button icon
-  toggleBtn.textContent = document.body.classList.contains('dark-theme') ? '☀️' : '🌙';
+//   // Change button icon
+//   toggleBtn.textContent = document.body.classList.contains('dark-theme') ? '☀️' : '🌙';
 
-  // Save preference
-  localStorage.setItem('theme', document.body.classList.contains('dark-theme') ? 'dark' : 'light');
-});
+//   // Save preference
+//   localStorage.setItem('theme', document.body.classList.contains('dark-theme') ? 'dark' : 'light');
+// });
 
-// Load saved theme on page load
-window.addEventListener('DOMContentLoaded', () => {
-  if (localStorage.getItem('theme') === 'dark') {
-    document.body.classList.add('dark-theme');
-    toggleBtn.textContent = '☀️';
-  }
-});
+// // Load saved theme on page load
+// window.addEventListener('DOMContentLoaded', () => {
+//   if (localStorage.getItem('theme') === 'dark') {
+//     document.body.classList.add('dark-theme');
+//     toggleBtn.textContent = '☀️';
+//   }
+// });
 
 
 // text typing Animation effect
