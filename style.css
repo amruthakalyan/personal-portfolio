@@ -57,7 +57,7 @@ header{
     font-size: 16px;
     text-transform: uppercase;
 }
-.dark{
+/* .dark{
     border-radius: 30%;
     width: 25px;
     background-color: #df1d1d;
@@ -66,7 +66,24 @@ header{
     border-radius: 30%;
     width: 25px;
     background-color: #df1d1d;
+} */
+
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
 }
+
+body.dark-theme {
+  --bg-color: #121212;
+  --text-color: #f0f0f0;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
 
 input[type=checkbox]{
     display: none;
