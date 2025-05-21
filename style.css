@@ -58,29 +58,9 @@ header{
     text-transform: uppercase;
 }
 
-/* Light theme (default) */
-body {
-  background-color: #fff;
-  color: #121212;
-  transition: background-color 0.3s, color 0.3s;
-}
 
-/* Dark theme */
-body.dark {
-  background-color: #121212;
-  color: #eee;
-}
 
-/* Optional: style the button */
-#theme-toggle {
-  position: fixed;
-  top: 1rem;
-  right: 1rem;
-  padding: 0.5rem 1rem;
-  cursor: pointer;
-}
-
-/* .dark{
+.dark{
     border-radius: 30%;
     width: 25px;
     background-color: #df1d1d;
@@ -90,7 +70,7 @@ body.dark {
     width: 25px;
     background-color: #df1d1d;
 }
- */
+
 /* :root {
   --bg-color: #ffffff;
   --text-color: #000000;
