@@ -1,15 +1,36 @@
-document.body.style.backgroundColor = 'black',
-document.body.style.color = 'white';
-let light = document.getElementById('light');
-let dark= document.getElementById('dark');
-light.addEventListener('click',()=>{
-    document.body.style.backgroundColor = "white";
-    document.body.style.color = "black";
-})
-dark.addEventListener('click',()=>{
-    document.body.style.backgroundColor = "black";
-    document.body.style.color = "white";
-})
+const toggleBtn = document.getElementById('theme-toggle');
+
+toggleBtn.addEventListener('click', () => {
+  document.body.classList.toggle('dark');
+  
+  // Save preference to localStorage
+  if(document.body.classList.contains('dark')) {
+    localStorage.setItem('theme', 'dark');
+  } else {
+    localStorage.setItem('theme', 'light');
+  }
+});
+
+// Load saved theme on page load
+window.addEventListener('load', () => {
+  if(localStorage.getItem('theme') === 'dark') {
+    document.body.classList.add('dark');
+  }
+});
+
+
+// document.body.style.backgroundColor = 'black',
+// document.body.style.color = 'white';
+// let light = document.getElementById('light');
+// let dark= document.getElementById('dark');
+// light.addEventListener('click',()=>{
+//     document.body.style.backgroundColor = "white";
+//     document.body.style.color = "black";
+// })
+// dark.addEventListener('click',()=>{
+//     document.body.style.backgroundColor = "black";
+//     document.body.style.color = "white";
+// })
 
 // const toggleBtn = document.getElementById('theme-toggle');
 
