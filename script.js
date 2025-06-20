@@ -74,6 +74,12 @@ document.addEventListener("DOMContentLoaded", () => {
   const contactLink = document.getElementById("contactModalTrigger");
   const closeBtn = document.querySelector(".close");
 
+  // Ensure all elements exist
+  if (!modal || !contactLink || !closeBtn) {
+    console.error("Modal elements not found.");
+    return;
+  }
+
   contactLink.addEventListener("click", (e) => {
     e.preventDefault();
     modal.style.display = "block";
